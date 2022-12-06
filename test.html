@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Text editor simulation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="app.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            btn {
+                @apply bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded
+
+            }
+        </style>
+    </head>
+    <body style="text-align:center">
+        <p style="color:rgb(148, 119, 174); font-size: 50px;" >TEXT EDITOR</p>
+        <hr>
+        <div>
+            <button onclick="bold()" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+                Bold
+              </button>
+        <button onclick="bold()" class="btn">Bold</button>
+        <button onclick="italic()">Italic</button>
+        <button onclick="tal()">text-align left</button>
+        <button onclick="tac()">text-align center</button>
+        <button onclick="tar()">text-align right</button>
+        <button onclick="uppc()">Upper Case</button>
+        <button onclick="lowc()">Lower Case</button>
+        <button onclick="cap()">Capitalize</button>
+        <button onclick="clr()">Clear Text</button>
+        </div><br>
+        <div>
+            <input id="textarea1" type="textarea" placeholder="Your text here" col="70" row="20" style="border-width:7px; border-style:solid; border-color:rgb(148, 119, 174); padding: 1em;">
+        </div>
+
+    </body>
+</html>
