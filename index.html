@@ -8,8 +8,8 @@
     <body style="text-align:center">
         <p style="color:rgb(148, 119, 174); font-size: 50px;" >TEXT EDITOR</p>
         <hr>
-        <div class="border p-5 h-full">
-        <button onclick="bold()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded font-bold">Bold</button>
+        <div class="border p-5 place-items-center w-11/12 mx-auto">
+        <button onclick="bold()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded font-bold focus:outline-none focus:ring focus:ring-violet-300">Bold</button>
         <button onclick="italic()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded italic">Italic</button>
         <button onclick="tal()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded">text-align left</button>
         <button onclick="tac()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded">text-align center</button>
@@ -17,10 +17,12 @@
         <button onclick="uppc()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded">Upper Case</button>
         <button onclick="lowc()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded">Lower Case</button>
         <button onclick="cap()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded">Capitalize</button>
-        <button onclick="clr()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded">Clear Text</button><br><br>
-        
-            <input id="textarea1" type="textarea" placeholder="Your text here" col="70" row="20" style="border-width:7px; border-style:solid; border-color:rgb(148, 119, 174); width:fit-content; padding:1em;">
+        <button onclick="clr()" class="bg-transparent hover:bg-[#9370DB] text-[#9370DB] font-semibold hover:text-white py-2 px-4 border border-[#9370DB] hover:border-transparent rounded">Clear Text</button>
         </div>
-
+        <div class="border place-items-center w-11/12 mx-auto h-full">
+            <textarea id="textarea1" placeholder="Your text here" col="70" row="20" class="border border-4 border-[#9370DB] w-11/12 m-8 p-2 h-96" ></textarea>
+           
+        </div>
+        /* style="border-width:7px; border-style:solid; border-color:rgb(148, 119, 174); width:fit-content; padding:1em;" */
     </body>
 </html>
