@@ -23,7 +23,13 @@ function cap() {
     document.getElementById('textarea1').style.textTransform='Capitalize'
 }
 function clr() {
-    document.getElementById('textarea1').value=''
+    document.getElementById('textarea1').value='';
+    document.getElementById('textarea1').style.fontWeight='normal';
+    document.getElementById('textarea1').style.fontWeight='non-italic';
+    document.getElementById('textarea1').style.fontstyle='normal';
+    document.getElementById('textarea1').style.textAlign='left';
+    document.getElementById('textarea1').style.textTransform='initial';
+    document.getElementById('textarea1').style.textColor='black';
 }
 function clean() {
     document.getElementById('textarea1').value='';
